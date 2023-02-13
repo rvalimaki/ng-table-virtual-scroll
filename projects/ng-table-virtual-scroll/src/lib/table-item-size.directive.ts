@@ -30,8 +30,8 @@ export function _tableVirtualScrollDirectiveStrategyFactory(tableDir: TableItemS
   return tableDir.scrollStrategy;
 }
 
-const stickyHeaderSelector = '.mat-header-row .mat-table-sticky, .mat-header-row.mat-table-sticky, .cdk-header-row .cdk-table-sticky, .cdk-header-row.cdk-table-sticky';
-const stickyFooterSelector = '.mat-footer-row .mat-table-sticky, .mat-header-row.mat-table-sticky, .cdk-footer-row .cdk-table-sticky, .cdk-header-row.cdk-table-sticky';
+const stickyHeaderSelector = '.mat-mdc-header-row .mat-mdc-table-sticky, .mat-mdc-header-row.mat-mdc-table-sticky, .cdk-header-row .cdk-table-sticky, .cdk-header-row.cdk-table-sticky';
+const stickyFooterSelector = '.mat-mdc-footer-row .mat-mdc-table-sticky, .mat-mdc-header-row.mat-mdc-table-sticky, .cdk-footer-row .cdk-table-sticky, .cdk-header-row.cdk-table-sticky';
 
 const defaults = {
   rowHeight: 48,
